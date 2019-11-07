@@ -23,54 +23,48 @@ body {
       background-color: #ADB3FF;
 
     }
-
-    .one{
-      grid-column: col / span 3;
+    .one, .four, .nine{
+      grid-column: col 1 / span 3;
+    }
+    .one, .two{
       grid-row: row / span 3;
     }
     .two{
       grid-column: col 4 / span 3;
-      grid-row: row / span 3;
     }
     .three{
       grid-column: col 7 / span 6;
       grid-row: row / span 6;
     }
-    .four{
-      grid-column: col 1 / span 3;
+    .four, .five{
       grid-row: row 3 / span 3;
     }
     .five{
       grid-column: col 4 / span 3 ;
-      grid-row: row 3 / span 3;
+    }
+    .six, .seven, .eight{
+      grid-row: row 7 / span 4;
     }
     .six{
       grid-column: col 1 / span 4;
-      grid-row: row 7 / span 4;
     }
     .seven{
       grid-column: col 5 / span 4;
-      grid-row: row 7 / span 4;
     }
     .eight{
       grid-column: col 9 / span 4;
-      grid-row: row 7 / span 4;
     }
-    .nine{
-      grid-column: col 1 / span 3;
+    .nine, .ten, .eleven, .twelve{
       grid-row: row 11 / span 3;
     }
     .ten{
       grid-column: col 4 / span 3;
-      grid-row: row 11 / span 3;
     }
     .eleven{
       grid-column: col 7 / span 3;
-      grid-row: row 11 / span 3;
     }
     .twelve{
       grid-column: col 10 / span 3;
-      grid-row: row 11 / span 3;
     }
 
     @media only screen and (max-width: 370px) {
@@ -89,63 +83,66 @@ body {
         padding: 50%;
         text-align: center;
         box-shadow: inset 1px 0 0 0 #535353;
-
     }
+
     .one, .two, .four, .five, .six, .seven, .nine, .ten, .eleven, .twelve{
       background-color: #FFADAD;
-
     }
+
     .three, .eight{
       background-color: #ADB3FF;
-
     }
 
-    .one{
-      grid-column: col ;
+    .one, .four, .six, .nine, .eleven{
+      grid-column: col 1;
+    }
+
+    .one, .two{
       grid-row: row ;
     }
+
     .two{
       grid-column: col 2 ;
-      grid-row: row ;
     }
+
     .three{
       grid-column: col 1 / span 2 ;
       grid-row: row 2 / span 2;
     }
-    .four{
-      grid-column: col 1 ;
+
+    .four, .five{
       grid-row: row 4 ;
     }
+
     .five{
       grid-column: col 2 ;
-      grid-row: row 4 ;
     }
-    .six{
-      grid-column: col 1 ;
+
+    .six, .seven{
       grid-row: row 5;
     }
+
     .seven{
       grid-column: col 2 ;
-      grid-row: row 5 ;
     }
+
     .eight{
       grid-column: col 1 / span 2 ;
       grid-row: row 6 / span 2 ;
     }
-    .nine{
-      grid-column: col 1 ;
+
+    .nine, .ten,{
       grid-row: row 8 ;
     }
+
     .ten{
       grid-column: col 2 ;
-      grid-row: row 8 ;
     }
-    .eleven{
-      grid-column: col 1 ;
+
+    .eleven, .twelve{
       grid-row: row 9 ;
     }
+
     .twelve{
       grid-column: col 2 ;
-      grid-row: row 9 ;
-    }
     }
