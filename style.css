@@ -1,0 +1,62 @@
+body {
+  margin: 80px;
+}
+.wrapper {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+    grid-auto-columns: 100px;
+        background-color: #fff;
+        color: #444;
+    }
+
+    .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+
+    }
+    .one, .two, .four, .five, .six, .seven, .nine, .ten, .eleven,. .twelve{
+      background-color: #FFADAD;
+    }
+    .three, .eight{
+      background-color: #ADB3FF;
+    }
+
+    .one{
+
+    }
+    .two{
+
+    }
+    .three{
+      
+    }
+    .four{
+
+    }
+    .five{
+
+    }
+    .six{
+
+    }
+    .seven{
+
+    }
+    .eight{
+ 
+    }
+    .nine{
+
+    }
+    .ten{
+
+    }
+    .eleven{
+
+    }
+    .twelve{
+
+    }
